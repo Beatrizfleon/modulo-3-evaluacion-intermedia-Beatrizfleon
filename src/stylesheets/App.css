@@ -1,0 +1,15 @@
+.pokeListItem {
+  list-style: none;
+}
+
+.pokeList {
+  list-style: none;
+}
+.types {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.typeTitle {
+  margin: 5px;
+}
