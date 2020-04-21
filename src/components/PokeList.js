@@ -1,9 +1,9 @@
 import React from 'react';
 import Pokemon from './Pokemon';
-import pokemons from '../data/pokemons.json';
 
-function PokeList() {
-  const pokemonsList = pokemons.map((pokemon) => {
+function PokeList(props) {
+  const pokemonsList = props.pokemons.map((pokemon) => {
+    console.log(pokemon);
     return (
       <div className='pokeListContainer'>
         <li className='pokeListItem' key={pokemon.id}>
