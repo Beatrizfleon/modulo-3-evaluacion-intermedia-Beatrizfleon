@@ -1,7 +1,25 @@
 .pokeListItem {
   list-style: none;
+  display: inline;
 }
-
+.mainTitle {
+  text-align: center;
+}
+.typesItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.typeTitle {
+  text-align: center;
+  font-weight: lighter;
+}
+.pokemonName {
+  font-size: 14px;
+  text-transform: uppercase;
+}
 .pokeList {
   list-style: none;
 }
@@ -9,7 +27,37 @@
   list-style: none;
   display: flex;
   flex-direction: row;
+  padding-left: 0px;
+  padding-bottom: 20px;
 }
 .typeTitle {
   margin: 5px;
+}
+.pokemonCard {
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8%;
+  width: 150px;
+  height: 200px;
+  margin: 5px;
+}
+/* .pokeListContainer {
+  border-style: solid;
+  border-color: red;
+} */
+.pokeList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.favourite {
+  background-color: pink;
 }
