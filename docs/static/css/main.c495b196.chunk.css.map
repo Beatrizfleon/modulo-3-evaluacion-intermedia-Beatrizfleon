@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAOA,+BAFE,eAMF,CAJA,OAEE,YAAa,CACb,kBACF,CACA,WACE,UACF","file":"main.c495b196.chunk.css","sourcesContent":[".pokeListItem {\n  list-style: none;\n}\n\n.pokeList {\n  list-style: none;\n}\n.types {\n  list-style: none;\n  display: flex;\n  flex-direction: row;\n}\n.typeTitle {\n  margin: 5px;\n}\n"]}
